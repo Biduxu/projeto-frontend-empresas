@@ -1,0 +1,95 @@
+.div-modal-create {
+    background-color: var(--color-grey-5);
+    padding: 21.68px 23.68px;
+    width: 506px;
+}
+
+.div-modal-create h1{
+    font-size: var(--font-7);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.form-create input{
+    padding: 17px 213px 14px 17px;
+    font-size: var(--font-2);
+    color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-2);
+}
+
+.form-create select{
+    padding: 17px 213px 14px 14px;
+    font-size: var(--font-2);
+    color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-2);
+}
+
+.button-create-department{
+    padding: 12px;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-5);
+    border: transparent;
+    font-size: var(--font-2);
+    font-weight: var(--weight-2);
+    cursor: pointer;
+}
+
+.input-alert {
+    border: 1px solid var(--color-alert);
+}
+
+.div-modal-edit-department {
+    background-color: var(--color-grey-5);
+    padding: 21.68px 23.68px;
+    width: 506px;
+}
+
+.div-modal-edit-department h1{
+    font-size: var(--font-7);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.div-modal-edit-department textarea {
+    padding: 17px 152px 75px 17px;
+    border: 1px solid var(--color-grey-2);
+    color: var(--color-grey-2);
+    font-family: 'Inter', sans-serif;
+    font-size: var(--font-2);
+    font-weight: var(--weight-5);
+}
+
+.button-save-edit {
+    padding: 12px;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-5);
+    border: transparent;
+    font-size: var(--font-2);
+    font-weight: var(--weight-2);
+    cursor: pointer;
+}
+
+.div-modal-delete-department{
+    background-color: var(--color-grey-5);
+    padding: 21.68px 23.68px;
+    width: 733px;
+}
+
+.div-modal-delete-department h2{
+    width: 410px;
+    text-align: center;
+    font-size: var(--font-8);
+    font-weight: var(--weight-2);
+    color: var(--color-grey-1);
+}
+
+.button-delete-department{
+    padding: 12px;
+    width: 422px;
+    background-color: var(--color-sucess);
+    color: var(--color-grey-5);
+    font-size: var(--font-2);
+    font-weight: var(--weight-2);
+    border: transparent;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./../../styles/buttons.css">
+    <link rel="stylesheet" href="./../../styles/flex.css">
+    <link rel="stylesheet" href="./../../styles/globalstyles.css">
+    <link rel="stylesheet" href="./../../styles/spacing.css">
+    <link rel="stylesheet" href="./../../styles/texts.css">
+    <link rel="stylesheet" href="./../../styles/toast.css">
+    <script defer type="module" src="./login.js"></script>
+</head>
+<body>
+    <nav class="flex items-center justify-between">
+        <div class="flex items-center gap-1">
+            <img src="./../../src/images/Ellipse 1.png" alt="">
+            <h1>Kenzie Empresas</h1>
+        </div>
+        <div class="flex items-center gap-2">
+            <a href="./../../index.html"><button class="to-home">Home</button></a>
+            <a href="./../register/register.html"><button class="to-register">Cadastro</button></a>
+        </div>
+    </nav>
+    <div class="line"></div>
+    <main class="flex column items-center">
+        <img src="./../../src/images/full-main-image.png" alt="">
+        <section class="flex column gap-3">
+            <div class="flex column gap-2">
+                <h2 class="form-title">Login</h2>
+                <p class="login-paragraph">Preencha os campos para realizar login</p>
+            </div>
+            <form class="flex column gap-4" action="">
+                <input type="email" placeholder="Seu e-mail" id="email" name="e-mail">
+                <input type="password" placeholder="Sua senha" id="password" name="senha">
+                <button type="submit" class="submit">Login</button>
+            </form>
+            <div class="flex column items-center gap-1 width-100">
+                <span class="login-paragraph">ou</span>
+                <a href="./../register/register.html" class="width-100"><button class="to-register-or-return">Cadastre-se</button></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

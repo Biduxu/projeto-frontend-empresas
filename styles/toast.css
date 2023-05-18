@@ -1,0 +1,21 @@
+.toast-container {
+    position: fixed;
+    padding: 21px 32px;
+    background-color: var(--color-sucess);
+    border-radius: 20px;
+    animation: toastIt 10000ms ease-in forwards;
+}
+
+@keyframes toastIt {
+    0%     {right: 30px; bottom: -200px}
+    12.5%  {right: 30px; bottom: 28px}
+    50%    {right: 30px; bottom: 28px}
+    75%    {right: 30px; bottom: 28px;}
+    100%   {right: 30px; bottom: -200px}
+}
+
+.toast-container p{
+    font-size: var(--font-2);
+    color: var(--color-grey-5);
+    font-weight: var(--weight-2);
+}

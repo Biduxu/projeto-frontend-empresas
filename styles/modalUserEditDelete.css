@@ -1,0 +1,46 @@
+.div-modal-edit-employee {
+    background-color: var(--color-grey-5);
+    padding: 21.68px 23.68px;
+    width: 506px;
+}
+
+.div-modal-edit-employee h1{
+    font-size: var(--font-7);
+    font-weight: var(--weight-2);
+    color: var(--color-grey-1);
+}
+
+.div-modal-edit-employee select{
+    padding: 17px 125px 14px 17px;
+    border: 1px solid var(--color-grey-2);
+    color: var(--color-grey-2);
+    font-size: var(--font-2);
+    font-weight: var(--weight-5);
+}
+
+.button-edit-employee{
+    padding: 12px;
+    background-color: var(--color-brand-1);
+    border: transparent;
+    color: var(--color-grey-5);
+    font-size: var(--font-2);
+    font-weight: var(--weight-2);
+    cursor: pointer;
+}
+
+.div-modal-delete-user{
+    background-color: var(--color-grey-5);
+    padding: 21.68px 23.68px;
+    width: 733px;
+}
+
+.button-delete-user{
+    padding: 12px;
+    width: 422px;
+    background-color: var(--color-sucess);
+    color: var(--color-grey-5);
+    font-size: var(--font-2);
+    font-weight: var(--weight-2);
+    border: transparent;
+    cursor: pointer;
+}

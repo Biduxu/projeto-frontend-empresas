@@ -1,0 +1,106 @@
+nav h1 {
+    font-size: var(--font-1);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-1);
+}
+.form-title {
+    font-size: var(--font-3);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.login-paragraph {
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-5);
+}
+
+.company-name {
+    font-size: var(--font-1);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.company-opening {
+    font-size: var(--font-4);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-5);
+}
+
+.span-alert {
+    font-size: var(--font-4);
+    color: var(--color-alert);
+    font-weight: var(--weight-5);
+}
+
+.section-profile h2{
+    font-size: var(--font-5);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.section-profile p {
+    font-size: var(--font-6);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-5);
+}
+
+.section-department-user-without-job h2 {
+    font-size: var(--font-3);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.nav-department h2{
+    font-size: var(--font-5);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.card-department h3{
+    font-size: var(--font-1);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.card-department p {
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-5);
+}
+
+.section-users-registered h2{
+    font-size: var(--font-5);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.card-user h3{
+    font-size: var(--font-1);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.card-user p {
+    font-size: var(--font-2);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-5);
+}
+
+.div-name h2{
+    font-size: var(--font-9);
+    color: var(--color-grey-5);
+    font-weight: var(--weight-2);
+}
+
+.card-coworker h4{
+    font-size: var(--font-10);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-2);
+}
+
+.card-coworker p{
+    font-size: var(--font-10);
+    color: var(--color-grey-1);
+    font-weight: var(--weight-5);
+}
